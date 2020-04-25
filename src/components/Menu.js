@@ -6,15 +6,31 @@ import {
 	RiBook2Line,
 } from 'react-icons/ri';
 import { AiOutlineStar } from 'react-icons/ai';
+
+//
 class Menu extends React.Component {
 	handleClick = (e) => {
 		this.props.handleSelect(e.target.getAttribute('value'));
+		//mobile menu
+		if (this.props.mobileState) {
+			const menu = document.querySelector('.menu');
+			menu.style.display = 'none';
+		}
 	};
+
+	componentDidMount() {
+		const menu = document.querySelector('.menu');
+		window.addEventListener('resize', () => {
+			if (window.innerWidth >= 798) {
+				menu.style.display = 'block';
+			}
+		});
+	}
 
 	render() {
 		return (
 			<div className="menu">
-				<ul>
+				<ul className="animated slideInLeft">
 					<div
 						className="menu-item"
 						value="Projects"
