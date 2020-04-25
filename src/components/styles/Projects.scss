@@ -6,17 +6,16 @@
 	justify-content: space-evenly;
 	align-items: flex-start;
 	.project-card {
-		margin-bottom: 2em;
+		box-shadow: #43dde6;
+		cursor: pointer;
+		margin-bottom: 5em;
 		position: relative;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border: 1px solid black;
-
+		max-width: 30em;
+		max-height: 15em;
 		&:hover {
-			.hidden {
-				display: flex;
-			}
 			img {
 				filter: grayscale(80%);
 			}
@@ -24,27 +23,39 @@
 
 		img {
 			max-width: 100%;
+			min-height: 100%;
+			display: block;
+			border-radius: 10px;
 		}
-		max-width: 40em;
-		background-color: red;
+
 		.hidden {
-			animation-duration: 0.3s;
+			animation-duration: 0.5s;
 			position: absolute;
 			max-width: 300px;
 			height: 80%;
 			font-size: 1.2em;
 			flex-direction: column;
+			text-align: left;
 			text-align: center;
 			justify-content: space-evenly;
 			display: none;
 			color: white;
-			background-color: #43dde6;
+			background-color: #fc5185;
+			border: 1px solid black;
+			.pr-icon {
+				position: absolute;
+				top: 0;
+				right: 2px;
+				color: black;
+			}
+			filter: drop-shadow(5px 5px 10px rgb(126, 126, 126));
 			a {
 				padding: 0 1em;
 				text-decoration: none;
 				color: black;
+
 				&:hover {
-					color: #364f6b;
+					color: #fafafa;
 				}
 			}
 		}
