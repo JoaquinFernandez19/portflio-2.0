@@ -4,7 +4,7 @@ const ProjectItem = (props) => {
 	return (
 		<div className="project-card">
 			<img src={props.img} alt="placeholder" />
-			<div className="hidden">
+			<div className="hidden animated fadeIn ">
 				<p>{props.description}</p>
 				<div>
 					<a href={props.github} target="blank">

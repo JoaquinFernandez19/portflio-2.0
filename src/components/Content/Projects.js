@@ -15,7 +15,7 @@ class Projects extends React.Component {
 					key={key}
 					github={project.github}
 					website={project.website}
-					imgPath={project.img}
+					img={project.img}
 				/>
 			);
 		});

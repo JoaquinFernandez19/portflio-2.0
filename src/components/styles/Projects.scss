@@ -7,18 +7,46 @@
 	align-items: flex-start;
 	.project-card {
 		margin-bottom: 2em;
+		position: relative;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		border: 1px solid black;
+
+		&:hover {
+			.hidden {
+				display: flex;
+			}
+			img {
+				filter: grayscale(80%);
+			}
+		}
+
 		img {
 			max-width: 100%;
 		}
 		max-width: 40em;
 		background-color: red;
 		.hidden {
+			animation-duration: 0.3s;
 			position: absolute;
 			max-width: 300px;
-			font-size: 1.5em;
+			height: 80%;
+			font-size: 1.2em;
+			flex-direction: column;
+			text-align: center;
+			justify-content: space-evenly;
+			display: none;
+			color: white;
+			background-color: #43dde6;
+			a {
+				padding: 0 1em;
+				text-decoration: none;
+				color: black;
+				&:hover {
+					color: #364f6b;
+				}
+			}
 		}
 	}
 }
