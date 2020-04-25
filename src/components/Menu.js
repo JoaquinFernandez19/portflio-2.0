@@ -30,10 +30,7 @@ class Menu extends React.Component {
 			if(item !== current) {
 				item.classList.remove('active');
 			}
-
 		})
-		
-
 	};
 
 	componentDidMount() {

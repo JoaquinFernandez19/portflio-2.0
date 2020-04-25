@@ -16,7 +16,11 @@
 		@include order-bgColor(#43dde6, 2);
 		@include flex(column, center);
 		z-index: 2;
+    
 		ul {
+      animation-duration: 0.3s;
+      animation-delay: 0s;
+      animation-timing-function:ease-out;
 			list-style-type: none;
 			min-height: 300px;
 			padding-top: 2em;
