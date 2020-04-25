@@ -105,7 +105,7 @@ const Skills = () => {
 					</h1>
 					<p className="anything">
 						Anything <br />
-						<span style={{ fontSize: '0.5em' }}>probably :)</span>
+						<span style={{ fontSize: '0.5em' }}>with a lot of effort :)</span>
 					</p>
 				</div>
 			</div>
@@ -114,10 +114,10 @@ const Skills = () => {
 				<ul className="prio-ul">
 					<li>Responsive designs</li>
 					<li>Accessibility</li>
-					<li>Organization</li>
 					<li>Reusable components</li>
 					<li>Solid basic knowledge</li>
 					<li>Clean code</li>
+					<li>Browser compatibility</li>
 					<li>User experience</li>
 					<li>Beatiful UI</li>
 				</ul>

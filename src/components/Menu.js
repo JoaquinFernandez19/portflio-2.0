@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/Menu.scss';
 //Icons
 import {
 	RiProjectorLine,
@@ -9,13 +10,30 @@ import { AiOutlineStar } from 'react-icons/ai';
 
 //
 class Menu extends React.Component {
+	state = { mobile: null };
+
 	handleClick = (e) => {
-		this.props.handleSelect(e.target.getAttribute('value'));
-		//mobile menu
-		if (this.props.mobileState) {
-			const menu = document.querySelector('.menu');
+		const menu = document.querySelector('.menu');
+		if (this.state.mobile || this.props.mobileState) {
 			menu.style.display = 'none';
 		}
+		this.props.handleSelect(e.target.getAttribute('value'));
+		
+
+		//active class
+		let current = e.target;
+		let arrayParent = Array.from(e.target.parentNode.children);
+		arrayParent.forEach((item)=>{
+			if(item === current){
+				item.classList.add('active');
+			}
+			if(item !== current) {
+				item.classList.remove('active');
+			}
+
+		})
+		
+
 	};
 
 	componentDidMount() {
@@ -23,16 +41,23 @@ class Menu extends React.Component {
 		window.addEventListener('resize', () => {
 			if (window.innerWidth >= 798) {
 				menu.style.display = 'block';
+				this.setState({ mobile: false });
 			}
 		});
+		if (window.innerWidth <= 798) {
+			this.setState({ mobile: true });
+		}
 	}
 
 	render() {
+
+
+
 		return (
 			<div className="menu">
-				<ul className="animated slideInLeft">
+				<ul className="animated slideInDown">
 					<div
-						className="menu-item"
+						className='menu-item active'
 						value="Projects"
 						onClick={this.handleClick}>
 						<RiProjectorLine className="menu-icon" />

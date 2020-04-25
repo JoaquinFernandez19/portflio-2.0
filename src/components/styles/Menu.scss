@@ -1,0 +1,52 @@
+@mixin order-bgColor($bgColor, $order, $display: flex) {
+	background-color: $bgColor;
+	order: $order;
+	display: $display;
+}
+
+@mixin flex($direction, $align: stretch, $justify: flex-start) {
+	align-items: $align;
+	justify-content: $justify;
+	flex-direction: $direction;
+}
+
+
+
+.menu {
+		@include order-bgColor(#43dde6, 2);
+		@include flex(column, center);
+		z-index: 2;
+		ul {
+			list-style-type: none;
+			min-height: 300px;
+			padding-top: 2em;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			.menu-item {
+				display: flex;
+				align-items: center;
+				font-size: 2rem;
+				cursor: pointer;
+				padding: 1em;
+				transition: all 400ms ease;
+				color: black;
+				li {
+					pointer-events: none;
+				}
+				.menu-icon {
+					pointer-events: none;
+				}
+				&:hover {
+					background-color: #364f6b;
+					color: white;
+				}
+			}
+      .active {
+        background-color: #364f6b;
+					color: white;
+      }
+
+		}
+	}

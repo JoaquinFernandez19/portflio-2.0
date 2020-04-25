@@ -10,7 +10,7 @@ import Content from './Content';
 //
 class App extends React.Component {
 	state = {
-		currentTab: 'Skills',
+		currentTab: 'Projects',
 		mobileState: null,
 	};
 
