@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Skills.scss';
+import '../styles/Skills.scss';
 //Icons
 
 import {

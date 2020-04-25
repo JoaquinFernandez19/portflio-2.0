@@ -44,7 +44,11 @@ class App extends React.Component {
 				<div className="current-tab-title">
 					<h1>
 						{this.state.currentTab}
-						<span className="animated flash infinite" style={{ zIndex: '1' }}>
+						<span
+							className="animated flash infinite"
+							style={{
+								zIndex: '1',
+							}}>
 							|
 						</span>
 					</h1>
