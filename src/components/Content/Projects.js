@@ -24,9 +24,10 @@ class Projects extends React.Component {
 		return (
 			<div className="projects">
 				{projectsList}
-				<span style={{ position: 'absolute', bottom: '0' }}>
-					Rigth now i'm creating new stuff, so wait for more!
-				</span>
+
+				<h1 style={{ paddingTop: '3em', paddingBottom: '3em' }}>
+					And more to come...
+				</h1>
 			</div>
 		);
 	}
