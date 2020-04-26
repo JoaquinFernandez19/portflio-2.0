@@ -3,7 +3,14 @@
 		"description": "Sushi Leaf, an example of a restaurant page in a minimalist style, one of my first react projects. Well perfoming and stylish",
 		"github": "https://github.com/JoaquinFernandez19/sushi-react",
 		"website": "https://joaquinfernandez19.github.io/sushi-react/",
-		"img": "https://raw.githubusercontent.com/JoaquinFernandez19/portflio-2.0/master/src/components/media/project-sushi-logo.png"
+		"img": "https://raw.githubusercontent.com/JoaquinFernandez19/portflio-2.0/master/src/components/media/project-sushi-logo.png",
+		"tech": "React, Semantic UI, Sass"
+	},
+	{
+		"description": "A simple but powerful global weather App. Select a place and woallah, you get the weather.",
+		"github": "https://github.com/JoaquinFernandez19/weather-react",
+		"website": "https://joaquinfernandez19.github.io/weather-react/?fbclid=IwAR0R8CsU8JY5jNJmkVicH0Sqii9SIAqAM9TCtnf09l2P7nzspgBlM4PkeMg",
+		"img": "https://raw.githubusercontent.com/JoaquinFernandez19/portflio-2.0/master/src/components/media/project-weather-logo.png"
 	},
 	{
 		"description": "A simple but powerful global weather App. Select a place and woallah, you get the weather.",

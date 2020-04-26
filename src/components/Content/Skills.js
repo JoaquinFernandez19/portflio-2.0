@@ -16,24 +16,12 @@ import { AiFillCode } from 'react-icons/ai';
 
 ///
 const Skills = () => {
-	const showAnything = (e) => {
-		let anything = document.querySelector('.anything');
-		let what = e.target;
-		what.classList.remove('beat', 'infinite');
-		what.classList.add('fadeOut');
-		what.addEventListener('animationend', () => {
-			what.style.display = 'none';
-			anything.style.display = 'block';
-			anything.classList.add('animated', 'fadeIn');
-		});
-	};
-
 	return (
 		<div className="skills">
 			<div className="what-i-know">
-				<h1>I know</h1>
+				<h1>I speak</h1>
 				<div className="techs">
-					<h2>Tecnologies</h2>
+					<h2>Technologies</h2>
 					<div className="icons-container">
 						<IoLogoJavascript
 							className="icon"
@@ -67,6 +55,9 @@ const Skills = () => {
 						/>
 					</div>
 				</div>
+			</div>
+			<div className="my-tools">
+				<h1>I use</h1>
 				<div className="tools">
 					<h2>Tools</h2>
 					<div className="icons-container">
@@ -94,42 +85,67 @@ const Skills = () => {
 					</div>
 				</div>
 			</div>
-			<div className="learn-anything">
-				<div
-					onClick={(e) => {
-						showAnything(e);
-					}}>
-					<h1>
-						What can i learn?
-						<br />a click will tell
-					</h1>
-					<p className="anything">
-						Anything <br />
-						<span style={{ fontSize: '0.5em' }}>with a lot of effort :)</span>
+			<div className="my-props">
+				<h1>My priorities</h1>
+				<div className="old-li">
+					<p>
+						Responsive <br />
+						designs
+					</p>
+					<p>Accessibility</p>
+					<p>
+						Reusable <br />
+						components
+					</p>
+					<p>
+						Solid basic <br />
+						knowledge
+					</p>
+					<p>
+						Clean <br />
+						code
+					</p>
+					<p>
+						Browser <br />
+						compatibility
+					</p>
+					<p>
+						User <br />
+						experience
+					</p>
+					<p>
+						Beatiful <br />
+						UI
 					</p>
 				</div>
 			</div>
 			<div className="what-i-can">
-				<h1>My priorities</h1>
-				<ul className="prio-ul">
-					<li>Responsive designs</li>
-					<li>Accessibility</li>
-					<li>Reusable components</li>
-					<li>Solid basic knowledge</li>
-					<li>Clean code</li>
-					<li>Browser compatibility</li>
-					<li>User experience</li>
-					<li>Beatiful UI</li>
-				</ul>
 				<h1>Personal props</h1>
-				<ul>
-					<li>Good comunication</li>
-					<li>English fluency</li>
-					<li>Hard worker</li>
-					<li>Very passionate</li>
-					<li>Responsable and respectful</li>
-					<li>Very curious</li>
-				</ul>
+				<div className="old-li">
+					<p>
+						Good <br />
+						communication
+					</p>
+					<p>
+						English <br />
+						fluency
+					</p>
+					<p>
+						Hard <br />
+						worker
+					</p>
+
+					<p>
+						Very <br />
+						passionate
+					</p>
+					<p>Proactive</p>
+					<p>Responsible</p>
+					<p>
+						Very <br />
+						curious
+					</p>
+				</div>
 			</div>
 		</div>
 	);

@@ -13,77 +13,109 @@
 
 .skills {
 	width: 100%;
-
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 400px 1fr;
 	.what-i-know {
 		@include skills-sections();
-		grid-row: 1/ 4;
-
-		h2 {
-			margin-top: 1em;
-			padding-bottom: 0.5em;
-		}
+		order: 0;
+		padding-top: 1em;
 		.icons-container {
 			padding: 1em 1em 1em 1em;
 			border-radius: 10px;
 		}
 		.icon {
-			font-size: 5rem;
+			font-size: 6rem;
 			margin: 0 0.1em;
 		}
 		.techs {
 			text-align: center;
-			max-width: 300px;
+		}
+	}
+	.my-tools {
+		@include skills-sections();
+		order: 1;
+		padding-top: 1em;
+		.icons-container {
+			padding: 1em 1em 1em 1em;
+			border-radius: 10px;
+		}
+		.icon {
+			font-size: 6rem;
+			margin: 0 0.1em;
 		}
 		.tools {
 			text-align: center;
-			max-width: 300px;
 		}
 	}
 	.what-i-can {
-		width: 100%;
+		order: 2;
+
 		@include skills-sections();
+		align-items: center;
+
 		h1 {
 			color: black;
 			text-align: center;
 		}
-
-		ul {
-			margin-top: 1.5em;
-			font-size: 1em;
-			line-height: 30px;
-			max-width: 185px;
-		}
-		.prio-ul {
-			padding-bottom: 2em;
-		}
-	}
-	.learn-anything {
-		@include skills-sections();
-		background-color: #fc5185;
-		justify-content: center;
-		position: relative;
-
-		h1 {
-			border: none;
-			color: white;
-			cursor: pointer;
-			background-color: black;
+		.old-li {
+			display: flex;
+			padding-top: 0.5em;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			width: 80%;
+			flex-wrap: wrap;
 		}
 		p {
+			border-radius: 10px;
+			display: flex;
 			text-align: center;
-			font-size: 3em;
-			display: none;
+			padding: 5px;
+			font-size: 1.8em;
+			color: white;
+			background-color: #364f6b;
+			margin: 0.5em;
+			height: auto;
 		}
+	}
+	.my-props {
+		@include skills-sections();
+		order: 3;
+		.old-li {
+			display: flex;
+			padding-top: 0.5em;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			width: 90%;
+			flex-wrap: wrap;
+		}
+		p {
+			border-radius: 10px;
+			display: flex;
+			text-align: center;
+			padding: 10px;
+			font-size: 1.6em;
+			color: black;
+			background-color: #43dde6;
+			margin: 0.5em;
+			height: auto;
+		}
+
+		h1 {
+			color: black;
+			text-align: center;
+		}
+	}
+}
+@media (max-width: 1013px) {
+	.skills {
+		grid-template-rows: 500px 1fr;
 	}
 }
 
 @media (max-width: 798px) {
-	@mixin skills-sections($color) {
-		border: none;
-	}
 	.skills {
 		min-width: 100%;
 		display: flex;
@@ -92,23 +124,33 @@
 			h1 {
 				margin-bottom: 0.5em;
 			}
-			.techs {
-				max-width: 100vw;
-			}
-			.tools {
-				max-width: 100vw;
-			}
 		}
-		.what-i-can {
+		.my-tools {
 			h1 {
 				margin-bottom: 0.5em;
 			}
 		}
-	}
-	.learn-anything {
-		margin-top: 3em;
-		order: 3;
-		min-height: 300px;
-		padding-bottom: 1em;
+		.my-props {
+			order: 2;
+			padding-bottom: 2em;
+			.old-li {
+				width: 100%;
+				p {
+					font-size: 1.2em;
+				}
+			}
+		}
+		.what-i-can {
+			padding-bottom: 2em;
+			h1 {
+				margin-bottom: 0.5em;
+			}
+			.old-li {
+				width: 100%;
+				p {
+					font-size: 1.2em;
+				}
+			}
+		}
 	}
 }

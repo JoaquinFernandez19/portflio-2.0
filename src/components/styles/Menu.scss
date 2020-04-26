@@ -32,8 +32,8 @@
 			font-size: 2rem;
 			cursor: pointer;
 			padding: 1em;
-
 			color: black;
+			transition: 200ms ease-in-out 0ms;
 			li {
 				pointer-events: none;
 			}
