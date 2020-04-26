@@ -28,6 +28,13 @@
 			justify-content: center;
 			max-width: 100%;
 		}
+		.tech-names {
+			color: rgb(0, 255, 242);
+			font-weight: 500;
+			padding-top: 10px;
+
+			font-family: Roboto mono;
+		}
 		.links-container {
 			position: relative;
 			height: 100px;
@@ -60,6 +67,7 @@
 			grid-column: 1/ 2;
 			grid-row: 1/2;
 			font-size: 1.3em;
+			padding-right: 20px;
 		}
 	}
 }

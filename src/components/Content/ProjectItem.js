@@ -9,6 +9,9 @@ const ProjectItem = (props) => {
 
 			<div className="text-container">
 				<p>{props.description}</p>
+				<br />
+
+				<p className="tech-names">{props.tech}</p>
 			</div>
 
 			<div className="links-container">
