@@ -21,7 +21,14 @@ class Projects extends React.Component {
 			);
 		});
 
-		return <div className="projects">{projectsList}</div>;
+		return (
+			<div className="projects">
+				{projectsList}
+				<span style={{ position: 'absolute', bottom: '0' }}>
+					Rigth now i'm creating new stuff, so wait for more!
+				</span>
+			</div>
+		);
 	}
 }
 
