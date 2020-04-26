@@ -115,6 +115,11 @@
 		.project-card {
 			grid-template-columns: 1fr;
 			grid-template-rows: 1fr 200px 10px;
+			.img-container {
+				img {
+					max-height: 257px;
+				}
+			}
 			.text-container {
 				max-width: none;
 			}
