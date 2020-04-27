@@ -21,7 +21,6 @@ const Skills = () => {
 			<div className="what-i-know">
 				<h1>I speak</h1>
 				<div className="techs">
-					<h2>Technologies</h2>
 					<div className="icons-container">
 						<IoLogoJavascript
 							className="icon"
@@ -59,7 +58,6 @@ const Skills = () => {
 			<div className="my-tools">
 				<h1>I use</h1>
 				<div className="tools">
-					<h2>Tools</h2>
 					<div className="icons-container">
 						<FaGitSquare
 							className="icon"
@@ -135,15 +133,16 @@ const Skills = () => {
 						worker
 					</p>
 
-					<p>
-						Very <br />
-						passionate
-					</p>
+					<p>Passionate</p>
 					<p>Proactive</p>
 					<p>Responsible</p>
 					<p>
 						Very <br />
 						curious
+					</p>
+					<p>
+						Google search
+						<br /> expert
 					</p>
 				</div>
 			</div>

@@ -3,10 +3,8 @@ import { RiMenu2Line } from 'react-icons/ri';
 const Title = () => {
 	return (
 		<div className="title">
-			<h1>Hello</h1>
-			<p>
-				Im <span>Joaquin</span>
-			</p>
+			<h1>Joaquin</h1>
+			<p>WebDeveloper</p>
 			<RiMenu2Line
 				style={{ position: 'absolute', left: '0', fontSize: '3rem' }}
 				className="hamburguer-icon"
