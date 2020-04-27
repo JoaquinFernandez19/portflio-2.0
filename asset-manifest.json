@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portflio-2.0/static/css/main.d90e8bf5.chunk.css",
+    "main.css": "/portflio-2.0/static/css/main.01600404.chunk.css",
     "main.js": "/portflio-2.0/static/js/main.a95c2557.chunk.js",
     "main.js.map": "/portflio-2.0/static/js/main.a95c2557.chunk.js.map",
     "runtime-main.js": "/portflio-2.0/static/js/runtime-main.284df615.js",
@@ -8,16 +8,16 @@
     "static/js/2.779f9920.chunk.js": "/portflio-2.0/static/js/2.779f9920.chunk.js",
     "static/js/2.779f9920.chunk.js.map": "/portflio-2.0/static/js/2.779f9920.chunk.js.map",
     "index.html": "/portflio-2.0/index.html",
-    "precache-manifest.7e269a8278e56047c8a6e68e0f8d2e1d.js": "/portflio-2.0/precache-manifest.7e269a8278e56047c8a6e68e0f8d2e1d.js",
+    "precache-manifest.60c52ec0f950be0894b4e9e459dd0616.js": "/portflio-2.0/precache-manifest.60c52ec0f950be0894b4e9e459dd0616.js",
     "service-worker.js": "/portflio-2.0/service-worker.js",
-    "static/css/main.d90e8bf5.chunk.css.map": "/portflio-2.0/static/css/main.d90e8bf5.chunk.css.map",
+    "static/css/main.01600404.chunk.css.map": "/portflio-2.0/static/css/main.01600404.chunk.css.map",
     "static/js/2.779f9920.chunk.js.LICENSE.txt": "/portflio-2.0/static/js/2.779f9920.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/portflio-2.0/static/media/svg-bg.aa7e45f4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.284df615.js",
     "static/js/2.779f9920.chunk.js",
-    "static/css/main.d90e8bf5.chunk.css",
+    "static/css/main.01600404.chunk.css",
     "static/js/main.a95c2557.chunk.js"
   ]
 }
