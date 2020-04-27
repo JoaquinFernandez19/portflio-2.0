@@ -15,10 +15,10 @@ const ProjectItem = (props) => {
 			</div>
 
 			<div className="links-container">
-				<a href={props.github} target="blank">
+				<a href={props.github} target="_blank" rel="noopener noreferrer">
 					Code
 				</a>
-				<a href={props.website} target="blank">
+				<a href={props.website} target="_blank" rel="noopener noreferrer">
 					Website
 				</a>
 			</div>

@@ -12,20 +12,21 @@ const About = () => {
 					my first step, but it wasn&apos;t enough. After finishing
 					&quot;Jovenes a programar&quot; i tried to join the university of
 					&quot;ORT&quot; but i didn&apos;t have the money, so i got job as a
-					delivery, but i realised that the money wasn&apos;t enough and also i
-					have to help my family with an income.
+					delivery, but i realised that the money wasn&apos;t enough because i
+					also had to help my family with an income.
 				</p>
 				<p>
-					So my best option was to continue studying all by myself, and that was
-					the way i was studying all my life, everything i learned was self
-					taught, so i had a good hand at doing that. Right now i continue
-					learning everyday, with the same focus and passion that i had at the
-					start, i would really like to study and work in a place where i can
-					practice the stuff i learned.
+					So my best option was to continue studying all by myself, but that was
+					easy for me, everything i learned in my life was self taught, so i was
+					an expert in teaching myself new things. Right now i continue learning
+					everyday, with the same focus and passion that i had at the start, i
+					would really like to study and work in a place where i can practice
+					the stuff i learned.
 				</p>
 				<p>
-					With time i know i will the chance to prove myself and work in the
-					environment that i dream of.
+					With time i know i will have the chance to prove myself and work in
+					the environment that i dream of, while doing the stuff that i really
+					like.
 				</p>
 			</div>
 			<div className="study">
@@ -62,8 +63,8 @@ const About = () => {
 							target="blank">
 							For Javascript
 						</a>
-						, this was one of the most important ones, here ive got a very good
-						solid basic knowledge of JavaScript.
+						, this was one of the most importants, here i&apos;ve gotten a very
+						good solid basic knowledge of JavaScript.
 						<br />
 						<a href="https://www.udemy.com/course/react-redux/" target="blank">
 							And this one for React
@@ -76,8 +77,8 @@ const About = () => {
 						matter wich course i was following, mozilla web docs is the place
 						where i always comeback to learn exact details. They are a
 						dictionary for webdevelopment and for some reason, they do it in a
-						wey where no matter how complex the topic is, if you read and take
-						your time, you will undersantd.
+						way where no matter how complex the topic is, if you read a lot and
+						take your time, you will undersantd.
 					</li>
 				</ul>
 			</div>
