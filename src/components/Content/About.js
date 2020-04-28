@@ -43,7 +43,7 @@ const About = () => {
               TheOdinProject:
             </a>{" "}
             This website is magical, it lets you follow a path, it gives you
-            documentation, and its also very user friendly.
+            documentation, and it's also very user friendly.
             Right now in the{" "}
             <a href="https://www.theodinproject.com/home" target="blank">
               TheOdinProject
@@ -62,13 +62,13 @@ const About = () => {
               target="blank"
             >
               Javascript:
-            </a>
+            </a>{" "}
              this was one of the most importants, here i&apos;ve gotten a very
             good solid basic knowledge of JavaScript.
             <br />
             <a href="https://www.udemy.com/course/react-redux/" target="blank">
               React:
-            </a>
+            </a>{" "}
              this got me introduced to React and also gave me a brief
             introduction to Redux.
           </li>
@@ -76,7 +76,7 @@ const About = () => {
             <a href="https://developer.mozilla.org/en-US/">MDN Web Docs:</a> No
             matter wich course i am taking, Mozilla Web Docs is the place
             where i always come back to learn exact details. It is a
-            dictionary for web development and for some reason, i was made in a
+            dictionary for web development and for some reason, it was made in a
             way where no matter how complex the topic is, if you read a lot and
             take your time, you will undersantd.
           </li>
