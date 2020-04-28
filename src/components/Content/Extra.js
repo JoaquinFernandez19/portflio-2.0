@@ -14,13 +14,13 @@ const Extra = () => {
 					<div className="files-icons">
 						<div className="file-plus-name">
 							<a href="https://github.com/JoaquinFernandez19/portflio-2.0/raw/master/src/components/data/joaquin-resume.pdf">
-								<AiOutlineFilePdf class="file-icon" />
+								<AiOutlineFilePdf className="file-icon" />
 							</a>
 							<p>Resume</p>
 						</div>
 						<div className="file-plus-name">
 							<a href="https://github.com/JoaquinFernandez19/portflio-2.0/raw/master/src/components/data/R%C3%BAbrica%20jovenes%20a%20programar.pdf">
-								<AiOutlineFilePdf class="file-icon" />
+								<AiOutlineFilePdf className="file-icon" />
 							</a>
 							<p>Rubrica JaP</p>
 						</div>

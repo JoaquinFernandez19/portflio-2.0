@@ -10,7 +10,9 @@ import Content from './Content';
 //
 const App = () => {
 	const [currentTab, setCurrentTab] = useState('Projects');
-	const [mobileState, setMobileState] = useState('null');
+	const [mobileState, setMobileState] = useState(
+		window.innerWidth <= 798 ? true : false,
+	);
 
 	//
 

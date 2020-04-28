@@ -10,12 +10,24 @@ import { AiOutlineStar } from 'react-icons/ai';
 
 //
 const Menu = (props) => {
-	const [mobile, setMobile] = useState('null');
+	const [mobile, setMobile] = useState('false');
+
+	useEffect(() => {
+		if (props.mobileState === true) {
+			setMobile(true);
+			console.log('mobile state ON!');
+		} else {
+			setMobile(false);
+			console.log('mobile state Off!');
+		}
+	}, [props.mobileState]);
 
 	const handleClick = (e) => {
 		let menu = document.querySelector('.menu');
-		if (mobile) {
+
+		if (props.mobileState) {
 			menu.style.display = 'none';
+			console.log('hola');
 		}
 		props.handleSelect(e.target.getAttribute('value'));
 
@@ -31,14 +43,6 @@ const Menu = (props) => {
 			}
 		});
 	};
-
-	useEffect(() => {
-		if (props.mobileState === true) {
-			setMobile(true);
-		} else {
-			setMobile(false);
-		}
-	}, [props.mobileState]);
 
 	return (
 		<div className="menu">
