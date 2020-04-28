@@ -9,26 +9,24 @@ const About = () => {
         <h1>My background</h1>
         <p>
           I was born in Montevideo 21 years ago. I live with my parents and my
-          brother. 2 years ago i was introduced to web development by
-          &quot;Jovenes a programar&quot; a free course by Plan Ceibal, that was
-          my first step, but it wasn&apos;t enough. After finishing
-          &quot;Jovenes a programar&quot; i tried to join the university of
-          &quot;ORT&quot; but i didn&apos;t have the money, so i got job as a
-          delivery, but i realised that the money wasn&apos;t enough because i
-          also had to help my family with an income.
+          brother. Two years ago i was introduced to web development by
+          &quot;Jovenes a programar&quot; a free course by Plan Ceibal and that
+          was my first step. But it wasn&apos;t enough.
         </p>
         <p>
-          So my best option was to continue studying all by myself, but that was
-          easy for me, everything i learned in my life was self taught, so i was
-          an expert in teaching myself new things. Right now i continue learning
-          everyday, with the same focus and passion that i had at the start, i
-          would really like to study and work in a place where i can practice
-          the stuff i learned.
+          I was still hungy of knowledge so i continued the journey by myself,
+          the &quot;self-taught&quot; path wich at first seemed very scary but
+          it turn out very good. All my life i was a very independent person and
+          if i had to solve a problem, i solved it even if it took me all
+          day...fixing computers, laptops and phones was very entertaining and
+          development was even more entertaining because bigger problems means
+          that when they get fixed you get a very a pleasant feeling.
+          That&apos;s my motivation and that&apos;s why i love this career.
         </p>
         <p>
-          With time i know i will have the chance to prove myself and work in
-          the environment that i dream of, while doing the stuff that i really
-          like.
+          Helping people solve problems while i have fun fixing those puzzles.
+          That for me is web development. And that&apos;s why i will continue
+          improving at it.
         </p>
       </div>
       <div className="study">
