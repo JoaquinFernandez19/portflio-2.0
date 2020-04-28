@@ -49,7 +49,7 @@ const Extra = () => {
 			</div>
 
 			<div className="extra-extra">
-				<h1>Im currently looking for a job as a frontend/react developer.</h1>
+				<h1>I'm currently looking for a job as a frontend/react developer.</h1>
 				<h3>
 					If you want to recruit me or just want to leave me a question, my
 					email is:
