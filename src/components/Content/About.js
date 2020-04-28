@@ -10,14 +10,14 @@ const About = () => {
         <p>
           I was born in Montevideo 21 years ago. I live with my parents and my
           brother. Two years ago i was introduced to web development by
-          &quot;Jovenes a programar&quot; a free course by Plan Ceibal and that
+          &quot;Jovenes a programar&quot;, a free course by Plan Ceibal and that
           was my first step. But it wasn&apos;t enough.
         </p>
         <p>
-          I was still hungy of knowledge so i continued the journey by myself,
+          I was still hungry of knowledge so i continued the journey by myself,
           the &quot;self-taught&quot; path wich at first seemed very scary but
-          it turn out very good. All my life i was a very independent person and
-          if i had to solve a problem, i solved it even if it took me all
+          it turned out to be very good for me. All my life i've have been a very independent person and
+          if i had to solve a problem, i solve it even if it took me all
           day...fixing computers, laptops and phones was very entertaining and
           development was even more entertaining because bigger problems means
           that when they get fixed you get a very a pleasant feeling.

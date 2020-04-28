@@ -1,6 +1,6 @@
 [
 	{
-		"description": "Sushi Leaf, an example of a restaurant page in a minimalist style, one of my first react projects. Well perfoming and stylish",
+		"description": "Sushi Leaf, an example of a restaurant page in a minimalist style, one of my first react projects. Well perfomed and stylish",
 		"github": "https://github.com/JoaquinFernandez19/sushi-react",
 		"website": "https://joaquinfernandez19.github.io/sushi-react/",
 		"img": "https://raw.githubusercontent.com/JoaquinFernandez19/portflio-2.0/master/src/components/media/project-sushi-logo.png",
@@ -14,7 +14,7 @@
 		"tech": "React - Bootstrap - OpenWeather - Sass"
 	},
 	{
-		"description": "Study timer made for personal usage, it let you track your time, set rest and objectives. It also has sounds.",
+		"description": "Study timer made for personal usage, it lets you track your time, set rests and objectives. It also has sounds.",
 		"github": "https://github.com/JoaquinFernandez19/study-clock",
 		"website": "https://joaquinfernandez19.github.io/study-clock",
 		"img": "https://raw.githubusercontent.com/JoaquinFernandez19/portflio-2.0/master/src/components/media/project-clock-logo.png",
