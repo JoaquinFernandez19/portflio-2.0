@@ -1,5 +1,9 @@
 import React from 'react';
 import '../styles/Skills.scss';
+
+import { Icon, InlineIcon } from '@iconify/react';
+import reduxIcon from '@iconify/icons-simple-icons/redux';
+
 //Icons
 
 import {
@@ -42,11 +46,12 @@ const Skills = () => {
 							style={{ color: '#53c1de' }}
 							title="React logo"
 						/>
-						<FaBootstrap
+						<Icon
+							icon={reduxIcon}
 							className="icon"
-							style={{ color: '#553a7d' }}
-							title="Bootstrap logo"
+							style={{ color: '#764abc' }}
 						/>
+
 						<FaSass
 							className="icon"
 							style={{ color: '#ce679a' }}
@@ -69,6 +74,11 @@ const Skills = () => {
 							className="icon"
 							style={{ color: '#00000' }}
 							title="Figma logo"
+						/>
+						<FaBootstrap
+							className="icon"
+							style={{ color: '#553a7d' }}
+							title="Bootstrap logo"
 						/>
 						<DiNpm
 							className="icon"
