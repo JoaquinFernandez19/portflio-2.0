@@ -1,5 +1,12 @@
 [
 	{
+		"description": "Task manager super customizable, it includes themes, backgrounds and fonts. And a very cool Drag n' Drop system.",
+		"github": "https://github.com/JoaquinFernandez19/the-box",
+		"website": "https://joaquinfernandez19.github.io/the-box",
+		"img": "https://raw.githubusercontent.com/JoaquinFernandez19/portflio-2.0/master/src/components/media/project-box-logo.png",
+		"tech": "React - Redux - Sass"
+	},
+	{
 		"description": "Sushi Leaf, an example of a restaurant page in a minimalist style, one of my first react projects. Well perfomed and stylish",
 		"github": "https://github.com/JoaquinFernandez19/sushi-react",
 		"website": "https://joaquinfernandez19.github.io/sushi-react/",

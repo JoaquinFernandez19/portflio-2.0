@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Skills.scss';
 
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import reduxIcon from '@iconify/icons-simple-icons/redux';
 
 //Icons

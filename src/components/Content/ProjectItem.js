@@ -4,7 +4,7 @@ const ProjectItem = (props) => {
 	return (
 		<div className="project-card">
 			<div className="img-container">
-				<img src={props.img} alt="placeholder" className="img-project" />
+				<img src={props.img} alt="img of the project" className="img-project" />
 			</div>
 
 			<div className="text-container">
