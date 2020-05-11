@@ -109,9 +109,16 @@
 		}
 	}
 }
+
+@media (max-width: 1237px) {
+	.skills {
+		grid-template-rows: 450px 1fr;
+	}
+}
+
 @media (max-width: 1013px) {
 	.skills {
-		grid-template-rows: 500px 1fr;
+		grid-template-rows: 520px 1fr;
 	}
 }
 
