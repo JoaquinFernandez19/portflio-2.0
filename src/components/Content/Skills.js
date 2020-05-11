@@ -12,6 +12,7 @@ import {
 	FaCss3,
 	FaGitSquare,
 	FaSass,
+	FaGulp,
 } from 'react-icons/fa';
 import { IoLogoJavascript, IoLogoHtml5 } from 'react-icons/io';
 import { DiVisualstudio, DiNpm } from 'react-icons/di';
@@ -68,6 +69,11 @@ const Skills = () => {
 							className="icon"
 							style={{ color: '#f34f29' }}
 							title="Git logo"
+						/>
+						<FaGulp
+							className="icon"
+							style={{ color: '#db4446' }}
+							title="gulp logo"
 						/>
 						<AiFillCode className="icon" title="Console logo" />
 						<FiFigma
