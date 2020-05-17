@@ -7,6 +7,13 @@
 		"tech": "React - Redux - Sass"
 	},
 	{
+		"description": "TechHos is a real world landing page, fully responsive made with Bootstrap 4. I'm not a designer but it looks good.",
+		"github": "https://github.com/JoaquinFernandez19/techHos",
+		"website": "https://joaquinfernandez19.github.io/techHos/index.html",
+		"img": "https://raw.githubusercontent.com/JoaquinFernandez19/portflio-2.0/master/src/components/media/project-techHos-logo.png",
+		"tech": "Bootstrap - HTML5"
+	},
+	{
 		"description": "Sushi Leaf, an example of a restaurant page in a minimalist style, one of my first react projects. Well perfomed and stylish",
 		"github": "https://github.com/JoaquinFernandez19/sushi-react",
 		"website": "https://joaquinfernandez19.github.io/sushi-react/",
