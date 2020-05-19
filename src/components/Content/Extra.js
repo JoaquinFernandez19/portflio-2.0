@@ -24,6 +24,12 @@ const Extra = () => {
 							</a>
 							<p>Rubrica JaP</p>
 						</div>
+						<div className="file-plus-name">
+							<a href="https://github.com/JoaquinFernandez19/portflio-2.0/raw/master/src/components/data/coursera1.pdf">
+								<AiOutlineFilePdf className="file-icon" />
+							</a>
+							<p>Coursera</p>
+						</div>
 					</div>
 				</div>
 				<div className="contact">
