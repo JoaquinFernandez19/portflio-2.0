@@ -10,11 +10,12 @@
 		display: flex;
 		justify-content: space-evenly;
 		align-items: baseline;
-		width: 700px;
+		max-width: 800px;
 		.files {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+
 			h1 {
 				padding-bottom: 0.5em;
 			}
@@ -27,7 +28,7 @@
 				align-items: baseline;
 				justify-content: space-evenly;
 				max-width: 600px;
-				min-width: 300px;
+
 				.file-plus-name {
 					width: 50%;
 					display: flex;
@@ -81,7 +82,7 @@
 		}
 	}
 }
-@media (max-width: 798px) {
+@media (max-width: 936px) {
 	.extra {
 		padding-top: 1em;
 		flex-direction: column;

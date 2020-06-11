@@ -28,7 +28,13 @@ const Extra = () => {
 							<a href="https://github.com/JoaquinFernandez19/portflio-2.0/raw/master/src/components/data/coursera1.pdf">
 								<AiOutlineFilePdf className="file-icon" />
 							</a>
-							<p>Coursera</p>
+							<p>Coursera - Programming foundations</p>
+						</div>
+						<div className="file-plus-name">
+							<a href="https://github.com/JoaquinFernandez19/portflio-2.0/raw/master/src/components/data/react-coursera.pdf">
+								<AiOutlineFilePdf className="file-icon" />
+							</a>
+							<p>Coursera - React</p>
 						</div>
 					</div>
 				</div>
