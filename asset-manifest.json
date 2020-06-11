@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portflio-2.0/static/css/main.8666c2d2.chunk.css",
-    "main.js": "/portflio-2.0/static/js/main.28dfc47f.chunk.js",
-    "main.js.map": "/portflio-2.0/static/js/main.28dfc47f.chunk.js.map",
+    "main.css": "/portflio-2.0/static/css/main.c91cdbca.chunk.css",
+    "main.js": "/portflio-2.0/static/js/main.92431fb3.chunk.js",
+    "main.js.map": "/portflio-2.0/static/js/main.92431fb3.chunk.js.map",
     "runtime-main.js": "/portflio-2.0/static/js/runtime-main.284df615.js",
     "runtime-main.js.map": "/portflio-2.0/static/js/runtime-main.284df615.js.map",
     "static/js/2.8ac2480d.chunk.js": "/portflio-2.0/static/js/2.8ac2480d.chunk.js",
     "static/js/2.8ac2480d.chunk.js.map": "/portflio-2.0/static/js/2.8ac2480d.chunk.js.map",
     "index.html": "/portflio-2.0/index.html",
-    "precache-manifest.926a3429a31a54ba4386c1b73fdc2c98.js": "/portflio-2.0/precache-manifest.926a3429a31a54ba4386c1b73fdc2c98.js",
+    "precache-manifest.5cb6fdbba64c65d73930d79b5cf5a350.js": "/portflio-2.0/precache-manifest.5cb6fdbba64c65d73930d79b5cf5a350.js",
     "service-worker.js": "/portflio-2.0/service-worker.js",
-    "static/css/main.8666c2d2.chunk.css.map": "/portflio-2.0/static/css/main.8666c2d2.chunk.css.map",
+    "static/css/main.c91cdbca.chunk.css.map": "/portflio-2.0/static/css/main.c91cdbca.chunk.css.map",
     "static/js/2.8ac2480d.chunk.js.LICENSE.txt": "/portflio-2.0/static/js/2.8ac2480d.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/portflio-2.0/static/media/svg-bg.aa7e45f4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.284df615.js",
     "static/js/2.8ac2480d.chunk.js",
-    "static/css/main.8666c2d2.chunk.css",
-    "static/js/main.28dfc47f.chunk.js"
+    "static/css/main.c91cdbca.chunk.css",
+    "static/js/main.92431fb3.chunk.js"
   ]
 }
